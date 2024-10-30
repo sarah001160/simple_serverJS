@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>主頁面</title>
+  <!-- 2.或放在 head 內，但 script 內要加上 defer 延遲載入-->
+  <!-- <script src="./script.js"></script>-->
+
+</head>
+
+<body>
+  <h1>Hello</h1>
+  <button id="fetch">抓取消息</button>
+  <p id="message"></p>
+
+
+  <!-- 1. js 放在 body end 前: DOM 元素先加載，再加載 js-->
+  <script src="./script.js"></script>
+</body>
+
+</html>
