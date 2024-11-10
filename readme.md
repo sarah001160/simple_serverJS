@@ -23,3 +23,7 @@ taskkill /PID 1234 /F
 ### 2.再跑一次 npm run start
 
 你執行這個指令時，要先確保你開啟的檔案是 client 端的 script.js
+
+## express.js 資源連結
+
+https://developer.mozilla.org/zh-TW/docs/Learn/Server-side/Express_Nodejs/skeleton_website
