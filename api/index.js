@@ -72,3 +72,5 @@ app.post('/api/notes', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}/`);
 });
+
+module.exports = app;
